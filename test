@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Thieu.ai - The AI Dream Playground where imagination meets innovation!">
+    <title>Thieu.ai - The AI Dream Playground</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            padding: 50px 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            background: linear-gradient(to right, #f8ff00, #3ad59f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .button {
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            background: linear-gradient(135deg, #ff512f, #dd2476);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 20px;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .feature h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        footer a {
+            color: #f8ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Thieu.ai</h1>
+        <p>
+            Explore the AI Dream Playground, where your imagination transforms into reality. Create stunning worlds, solve challenges, and learn together as a family. This is the next level of innovation and fun.
+        </p>
+        <button class="button" onclick="alert('Coming Soon! 🚀')">Get Started</button>
+        <button class="button" onclick="alert('Learn More! 🌟')">Learn More</button>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Create Infinite Worlds</h3>
+                <p>Describe your ideas, and AI brings them to life in breathtaking 3D environments.</p>
+            </div>
+            <div class="feature">
+                <h3>Interactive Learning</h3>
+                <p>Engage with challenges that teach creativity, problem-solving, and teamwork.</p>
+            </div>
+            <div class="feature">
+                <h3>Family Collaboration</h3>
+                <p>Work together on projects and share your amazing creations with the world.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Thieu.ai - Created with ❤️ by Thieu, Supatra, and Rick.</p>
+    </footer>
+</body>
+</html>
